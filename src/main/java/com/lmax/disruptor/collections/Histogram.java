@@ -23,7 +23,7 @@ import java.util.Arrays;
  * <p>Histogram for tracking the frequency of observations of values below interval upper bounds.</p>
  *
  * <p>This class is useful for recording timings across a large number of observations
- * when high performance is required.<p>
+ * when high performance is required.</p>
  *
  * <p>The interval bounds are used to define the ranges of the histogram buckets. If provided bounds
  * are [10,20,30,40,50] then there will be five buckets, accessible by index 0-4. Any value
